@@ -6,7 +6,7 @@ import About from "../components/About";
 import Howto from "../components/howto";
 // import RunApp from "../../scripts/transactiondata"
 // import FetchedData from "../../scripts/transactiondata"
-
+import SoSpecial from "../components/slider/index"
 
 function Home() {
 
@@ -63,6 +63,7 @@ function Home() {
           +91 - 8800430099
         </button>
       </div>
+      <SoSpecial />
       <Howto/>
 
       <div className="flex gap-6 mt-8 justify-center">

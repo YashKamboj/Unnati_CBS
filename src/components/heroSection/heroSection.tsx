@@ -13,7 +13,7 @@ const HeroSection = () => {
 
 const Wrapper = styled.div`
     position: relative;
-    height: 45rem;
+    height: 40rem;
     overflow: hidden;
     background: url(unnati.png) no-repeat center;
     background-size : cover;
