@@ -8,12 +8,13 @@ Donors typically have little to no knowledge of how non-profit or philanthropic 
 
 ## Vision
 By creating innovative fundraising technology, we empower people, companies, and nonprofits to support the causes they care about in the moments when they feel inspired and uplift communities everywhere.
+We have tried to answer these problems by implementing and using the advantages of blockchain technologies that are key to the surging growth of cryptocurrencies. Here, donors can solely focus on the cause rather than selecting the right organization, and directly transfer the amount to those in need. Crypto philanthropy has switched the donation pattern from organization-specific to cause-centric. This mode of working also ensures that smaller non-profits get equal opportunity to be involved in the process. The transactions done on the blockchain would be traceable. The processing fee are very high on traditional platforms while on Polygon it's negligible.
 
 ## The Functionalities
 
 1. **Start New Campaign**  — users will be able to start a new crowdfunding project by inputting some details about the campaign like title, story and goal amount to be raised.
 2. **View Projects** — users can see all the existing projects and campaign details on the homepage 
-3. **Make Donation** — anyone can fund to the project they want to support in Matic tokens
+3. **Make Donation** — anyone can fund to the project they want to support in MATIC tokens
 
 
 ## The Tech Stack
@@ -27,3 +28,12 @@ By creating innovative fundraising technology, we empower people, companies, and
 - User Interface: [TailwindCSS](https://tailwindcss.com/)
 - RPC provider: [Ankr](https://www.ankr.com/protocol/)
 
+## Screenshots 
+![img1]()
+
+## Team : Fousey Gang (Team No 568)
+MEMBERS :
+- Hardik Bora
+- Yash Kataria
+- Yash Kamboj
+- Vipul Arora
