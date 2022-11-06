@@ -2,7 +2,9 @@ import CampaignsPage from "./pages/CampaignsPage";
 import CreateCampaignsPage from "./pages/CreateCampaindPage";
 import Home from "./pages/Home";
 import SingleCampaignPage from "./pages/SingleCampaignPage";
+import TransactionPage from "./pages/TransactionPage"
 import Layout from "./components/layout";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -20,6 +22,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/Campaigns" element={<CampaignsPage />} />
             <Route path="/Campaigns/new" element={<CreateCampaignsPage />} />
+            <Route path="/Transactions" element={<TransactionPage />} />
             <Route path= "/Campaign" element={
             <SingleCampaignPage projectNumber = {Number(xyzaq)}/>
              } />

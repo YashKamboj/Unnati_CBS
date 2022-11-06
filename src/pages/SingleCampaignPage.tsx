@@ -18,7 +18,6 @@ import {
 
 import {CampaignProps} from "../components/Campaign"; 
 
-
 function SingleCampaignPage({ projectNumber }: CampaignProps) {
     DEBUG && console.log("projectNumber: ", projectNumber);
 

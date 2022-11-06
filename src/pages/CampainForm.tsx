@@ -6,7 +6,7 @@ const SignupFormWrapper = styled.section`
 		color: #b30000;
 	}
 	.accounts{
-	  margin-top: 1.1rem;
+	  margin-top: 1rem;
     p {
 			font-size: 0.8rem;
 			line-height: 0.9rem;

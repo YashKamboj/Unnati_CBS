@@ -25,8 +25,8 @@ const Navbar = () => {
             </a>
           </NavItems>
           <NavItems>
-            <a href="/">
-              <NavItem>How it works</NavItem>
+            <a href="/Transactions">
+              <NavItem>Transaction History</NavItem>
             </a>
           </NavItems>
           <NavItems>

@@ -1,15 +1,38 @@
 import HeroSection from "../components/heroSection/heroSection";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Campaigns from "../components/Campaigns";
 import Prospects from "../components/prospect";
 import About from "../components/About";
 import Howto from "../components/howto";
+// import RunApp from "../../scripts/transactiondata"
+// import FetchedData from "../../scripts/transactiondata"
+
 
 function Home() {
+
+  // const [data, setData] = useState();
+
+  // useEffect(() => {
+  //   FetchedData().then((trx) => {
+  //     setData(trx.from_address);
+
+  //     console.log(trx.from_address);
+  //   });
+  // }, []);
+
+  // console.log(data)
+
   return (
     <div>
+      {/* {data.map((from_address) => (
+        <h1>{from_address}</h1>
+      ))} */}
+      
       <HeroSection />
       <About/>
+      <div style={{margin: "1rem 15rem"}}>
+      
+      </div>
       <Prospects/>
       <div className="flex justify-center text-sm sm:text-base md:text-3xl lg:text-4xl pb-10 pt-10">
         <button
