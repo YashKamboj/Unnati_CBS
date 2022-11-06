@@ -41,7 +41,7 @@ function Campaigns() {
       <div className="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
         {/* create an array starting from 0 index  */}
         
-        {Array.from(Array(totalPublishedProjs).keys()).slice(-7, -4).map(
+        {Array.from(Array(totalPublishedProjs).keys()).slice(0, 3).map(
           (projectNumber: number, i) => {
             return (
               <div key={i}>
