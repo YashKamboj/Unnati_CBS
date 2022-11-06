@@ -147,7 +147,7 @@ const Footer = () => {
             <li>
               <a
                 className="category-link"
-                href="https://github.com/YashKamboj/Unnati"
+                href="https://github.com/YashKamboj/Unnati_CBS"
               >
                 <img src={GithubIcon} alt="GitHub Icon" />
                 Github
