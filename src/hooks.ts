@@ -6,9 +6,6 @@ import { FACTORY_CONTRACT_ADDRESS } from "./constants";
 import type { Crowdfactory } from "./contract-types/Crowdfactory";
 import type { Crowdfundingproject } from "./contract-types/Crowdfundingproject";
 
-/*//////////////////////////////////////////////////////////////
-                              CROWD FACTORY
-//////////////////////////////////////////////////////////////*/
 
 export function useCrowdFactoryContract(): Crowdfactory {
   const contract = useContract({
@@ -19,7 +16,6 @@ export function useCrowdFactoryContract(): Crowdfactory {
   return contract as Crowdfactory;
 }
 
-// create a generic hook to access write functions of contract
 export function useCrowdFactoryFunctionWriter(
   functionName: string
 ): ReturnType<typeof useContractWrite> {
@@ -36,7 +32,7 @@ export interface UseCrowdFactoryFunctionReaderProps {
   functionName: string;
   args?: any[];
 }
-// create a generic hook to access read functions of contract
+
 export function useCrowdFactoryFunctionReader({
   functionName,
   args,
@@ -52,9 +48,7 @@ export function useCrowdFactoryFunctionReader({
   return contractRead;
 }
 
-/*//////////////////////////////////////////////////////////////
-                          CROWD FUNDING PROJECT
-//////////////////////////////////////////////////////////////*/
+
 
 export function useCrowdfundingProjectContract(
   contractAddress: string
